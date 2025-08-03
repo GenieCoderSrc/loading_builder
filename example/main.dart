@@ -12,9 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Loading Builder Example',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme: ThemeData(primarySwatch: Colors.blue),
       home: const LoadingExampleScreen(),
     );
   }
@@ -43,9 +41,7 @@ class _LoadingExampleScreenState extends State<LoadingExampleScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Loading Builder Example'),
-      ),
+      appBar: AppBar(title: const Text('Loading Builder Example')),
       body: Padding(
         padding: const EdgeInsets.all(20.0),
         child: Column(
@@ -67,12 +63,12 @@ class _LoadingExampleScreenState extends State<LoadingExampleScreen> {
             const SizedBox(height: 10),
             const BuildLoading(),
             const SizedBox(height: 40),
-            const Text('Shimmer Loading Placeholder:', style: TextStyle(fontSize: 16)),
-            const SizedBox(height: 10),
-            const ShimmerLoading(
-              height: 100,
-              width: double.infinity,
+            const Text(
+              'Shimmer Loading Placeholder:',
+              style: TextStyle(fontSize: 16),
             ),
+            const SizedBox(height: 10),
+            const ShimmerLoading(height: 100, width: double.infinity),
           ],
         ),
       ),
