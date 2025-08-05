@@ -25,13 +25,13 @@ class ButtonLoading extends StatelessWidget {
     return !loading
         ? const SizedBox.shrink()
         : Container(
-          margin: const EdgeInsets.only(left: 10, right: 10),
-          width: width,
-          height: height,
-          child: CircularProgressIndicator(
-            strokeWidth: strokeWidth,
-            backgroundColor: bgColor,
-          ),
-        );
+            margin: const EdgeInsets.only(left: 10, right: 10),
+            width: width,
+            height: height,
+            child: CircularProgressIndicator(
+              strokeWidth: strokeWidth,
+              backgroundColor: bgColor,
+            ),
+          );
   }
 }

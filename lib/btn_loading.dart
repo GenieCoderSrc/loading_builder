@@ -10,12 +10,12 @@ Widget btnLoading({
   return !loading
       ? const SizedBox()
       : Container(
-        margin: const EdgeInsets.only(left: 10, right: 10),
-        width: width,
-        height: height,
-        child: CircularProgressIndicator(
-          strokeWidth: strokeWidth,
-          backgroundColor: bgColor,
-        ),
-      );
+          margin: const EdgeInsets.only(left: 10, right: 10),
+          width: width,
+          height: height,
+          child: CircularProgressIndicator(
+            strokeWidth: strokeWidth,
+            backgroundColor: bgColor,
+          ),
+        );
 }
