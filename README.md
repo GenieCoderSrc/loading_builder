@@ -14,7 +14,7 @@ Add the dependency in your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  loading_builder: ^0.0.3
+  loading_builder: latest_version
 ```
 
 ## Usage
