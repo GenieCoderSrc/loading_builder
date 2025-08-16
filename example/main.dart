@@ -47,18 +47,6 @@ class _LoadingExampleScreenState extends State<LoadingExampleScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            ElevatedButton(
-              onPressed: _isButtonLoading ? null : _simulateButtonLoading,
-              child: Row(
-                mainAxisSize: MainAxisSize.min,
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  const Text('Submit'),
-                  btnLoading(loading: _isButtonLoading),
-                ],
-              ),
-            ),
-            const SizedBox(height: 40),
             const Text('Centered Loading:', style: TextStyle(fontSize: 16)),
             const SizedBox(height: 10),
             const BuildLoading(),
