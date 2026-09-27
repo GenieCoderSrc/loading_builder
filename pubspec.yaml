@@ -1,6 +1,6 @@
 name: loading_builder
 description: "A simple Flutter package providing reusable loading widgets including a button loading indicator, a centered circular progress loader, and a shimmer loading placeholder. Easily enhance your app's loading states with customizable and lightweight components."
-version: 0.0.5
+version: 0.0.6
 homepage: https://github.com/GenieCoderSrc/loading_builder
 repository: https://github.com/GenieCoderSrc/loading_builder
 issue_tracker: https://github.com/GenieCoderSrc/loading_builder/issues
@@ -13,7 +13,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  shimmer: ^3.0.0
+  shimmer: ^4.0.0
 
 dev_dependencies:
   flutter_test:
