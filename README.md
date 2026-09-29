@@ -13,6 +13,8 @@ A Flutter package providing lightweight and reusable loading widgets, including 
 Add the dependency in your `pubspec.yaml`:
 
 ```yaml
+resolution: workspace
+
 dependencies:
   loading_builder: latest_version
 ```
